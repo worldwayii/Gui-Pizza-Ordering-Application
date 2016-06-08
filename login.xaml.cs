@@ -84,16 +84,10 @@ namespace PizzaDis
 
         }
 
-
-
-
-
-
-
-
-
-
-
-
+        private void button1_Click(object sender, RoutedEventArgs e)
+        {
+            this.Hide();
+            MessageBox.Show("Bye Admin");
+        }
     }
 }
