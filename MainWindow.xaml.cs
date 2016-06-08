@@ -62,7 +62,7 @@ namespace PizzaDis
 
                 mscmd.Parameters.AddWithValue("@customer_name", myOrder.name);
                 mscmd.Parameters.AddWithValue("@phone_no", myOrder.phoneNo);
-                mscmd.Parameters.AddWithValue("@customer_address", myOrder.phoneNo);
+                mscmd.Parameters.AddWithValue("@customer_address", myOrder.address);
                 mscmd.Parameters.AddWithValue("@cust_order_code", myOrder.orderCode);
                 mscmd.Parameters.AddWithValue("@quantity", myOrder.quantity);
                 mscmd.ExecuteNonQuery();
