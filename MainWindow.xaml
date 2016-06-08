@@ -23,6 +23,7 @@
         <Label x:Name="label6" Content="Pizza De SCI.ng" HorizontalAlignment="Left" Margin="173,0,0,0" VerticalAlignment="Top" Width="162" FontWeight="ExtraBlack" FontFamily="Showcard Gothic" FontSize="15"/>
         <Image x:Name="image" HorizontalAlignment="Left" Height="85" Margin="10,0,0,0" VerticalAlignment="Top" Width="81" Source="C:\Users\Wayii\Documents\Visual Studio 2015\Projects\PizzaDis\PizzaDis\Images\pzz.jpe"/>
         <Image x:Name="image1" HorizontalAlignment="Left" Height="95" Margin="419,0,0,0" VerticalAlignment="Top" Width="100" Source="C:\Users\Wayii\Documents\Visual Studio 2015\Projects\PizzaDis\PizzaDis\Images\pzz4.jpe"/>
+        <Button x:Name="button2" Content="EXIT" HorizontalAlignment="Left" Margin="419,317,0,0" VerticalAlignment="Top" Width="75" Height="43" FontWeight="ExtraBlack" FontSize="29" Click="button2_Click"/>
 
     </Grid>
 </Window>

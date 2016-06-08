@@ -66,6 +66,8 @@ namespace PizzaDis
                 mscmd.Parameters.AddWithValue("@cust_order_code", myOrder.orderCode);
                 mscmd.Parameters.AddWithValue("@quantity", myOrder.quantity);
                 mscmd.ExecuteNonQuery();
+
+                
             }
             catch (MySql.Data.MySqlClient.MySqlException ex)
             {
@@ -73,7 +75,8 @@ namespace PizzaDis
                    "Error", MessageBoxButton.OK);
             }
             conn.Close();
-            Console.WriteLine("Done!");
+            MessageBox.Show("Order sent");
+            
         }
 
         private void button1_Click(object sender, RoutedEventArgs e)
@@ -81,6 +84,13 @@ namespace PizzaDis
             this.Hide();
             login lg = new login();
             lg.ShowDialog();
+            MessageBox.Show("For Admin logins");
+        }
+
+        private void button2_Click(object sender, RoutedEventArgs e)
+        {
+            this.Hide();
+            MessageBox.Show("Nice serving you. GoodBye Mate");
         }
     }
 }
